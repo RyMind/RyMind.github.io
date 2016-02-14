@@ -37,7 +37,7 @@
         },
         {
             "menuName": "Lab 9",
-            "menuDesc": "XAMPP and Security",
+            "menuDesc": "XAMPP &amp; Security",
             "menuURL": "./lab9/lab9.html"
         },
         {
