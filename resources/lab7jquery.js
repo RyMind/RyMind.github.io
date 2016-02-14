@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$.getJSON("http://rymind.github.io/resources/lab7jsontemplate.json", jsonMenu);
+	$.getJSON("rymind.github.io/resources/lab7jsontemplate.json", jsonMenu);
 	function jsonMenu(menuData){
 		var output = "";	
 		$.each(menuData.menuItem, function(i,item){
