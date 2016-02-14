@@ -1,6 +1,10 @@
 body {
         font-family: Arial, Helvetica, sans-serif; 
         background-color: #E5E4E2;
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+        
       }
 footer{
         font-size: 10pt;
