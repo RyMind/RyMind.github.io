@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$.getJSON("./lab7/resources/lab7jsontemplate.js", jsonMenu);
+	$.getJSON("./lab7/resources/lab7jsontemplate.xml", jsonMenu);
 	function jsonMenu(menuData){
 		var output = "";	
 		$.each(menuData.menuItem, function(i,item){
