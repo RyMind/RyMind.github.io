@@ -14,7 +14,7 @@ $(document).ready(function(){
 	}
 
 	var invocation = new XMLHttpRequest();
-	var url = 'http://rymind.github.io/resources/';
+	var url = 'http://rymind.github.io/';
    
 	function callOtherDomain() {
   		if(invocation) {    
