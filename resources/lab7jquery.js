@@ -13,6 +13,17 @@ $(document).ready(function(){
 
 	}
 
+	var invocation = new XMLHttpRequest();
+	var url = 'http://rymind.github.io/resources/';
+   
+	function callOtherDomain() {
+  		if(invocation) {    
+    		invocation.open('GET', url, true);
+    		invocation.onreadystatechange = handler;
+    		invocation.send(); 
+  		}
+	}
+
 });				
 		
 
