@@ -32,17 +32,17 @@
         },
         {
             "menuName": "Lab 8",
-            "menuDesc": "CSS & Photoshop Compositing",
+            "menuDesc": "CSS &amp; Photoshop Compositing",
             "menuURL":  "./lab8/lab8.html"
         },
         {
             "menuName": "Lab 9",
             "menuDesc": "XAMPP and Security",
             "menuURL": "./lab9/lab9.html"
-        }
+        },
         {
             "menuName": "Lab 10",
-            "menuDesc": "MySQL//MariaDB & CSV",
+            "menuDesc": "MySQL//MariaDB &amp; CSV",
             "menuURL": "./lab10/lab10.htm"
         }
         ]
