@@ -1,0 +1,10 @@
+body {
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #E5E4E2;
+      }
+footer{
+        font-size: 10pt;
+      }
+ul.menu{
+        list-style: none;
+      }

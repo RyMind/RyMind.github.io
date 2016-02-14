@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+	<title>Short News Feed</title>
+	<subtitle>Summary of three articles in an atom feed.</subtitle>
+	<link href="https://afsws.rpi.edu/AFS/home/64/macker2/public_html/iit/projects/lab4/Lab4Atom.xml" rel="self" />
+	<link href="https://afsws.rpi.edu" />
+	<id>urn:uuid:60a76c80-d399-11d9-b91C-0003939e0af6</id>
+	<updated>2015-10-12T19:00:00Z</updated>
+	<author>
+		<name>Ryan  Mackenzie</name>
+		<email>macker2@rpi.edu</email>
+	</author>
+ 
+	<entry>
+		<title>Apple A9 Processor varients</title>
+		<link href="http://www.forbes.com/sites/ewanspence/2015/10/08/apple-iphone-6s-tsmc-samsung-a9-benchmark/" />
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
+		<updated>2015-10-10T7:16:02Z</updated>
+		<summary>Apple has chosen two A9 chip manufactures Samsung and TWSC. These chips are different die sizes and have dissimilar performance characteristics.</summary>
+	</entry>
+	<entry>
+		<title>Train derailed and 4 injured</title>
+		<link href="http://www.reuters.com/article/2015/10/05/us-usa-train-vermont-idUSKCN0RZ1QW20151005"/>
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b</id>
+		<updated>2015-5-10T6:38:02Z</updated>
+		<summary>In vermont four persons were injured after a train derailment</summary>
+	</entry>
+	<entry>
+		<title>New iPhone released</title>
+		<link href="http://www.zdnet.com/product/apple-iphone-6s/"/>
+		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6c</id>
+		<updated>2015-5-10T9:47:02Z</updated>
+		<summary>The iPhone 6s and iPhone 6S Plus have recently been released</summary>
+	</entry>
+ 
+</feed>
+
+
+
