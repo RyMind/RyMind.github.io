@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Erasure Project</title>
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<style type="text/css">
+body {
+	background-color: #e4edc9;
+}
+</style>
+</head>
+
+<body onload="MM_preloadImages('Images/Portfolio-Page-Hyper-Real-BuildingBoat.png','Images/Portfolio-Page-Hyper-Real-LivingRoomPond.jpg')">
+<div align="center"><img src="Images/Portfolio-Page-Erasure-silhouette.jpg" name="Base" width="1000" height="800" usemap="#Map" id="Image1" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="866,109,937,182" href="#" alt="link to narritive" onclick="MM_openBrWindow('../Interactive/Interactive.html','','resizable=yes')" />
+    <area shape="rect" coords="60,79,151,105" href="../index.html" alt="Link to home page" title="Link to home page"/>
+    <area shape="rect" coords="826,210,903,288" href="../Recolored image/Recolor.html" alt="link to recolored image" />
+    <area shape="rect" coords="816,328,895,406" href="../CreateSomethingNew/CreateNew.html" alt="link to create somthing new" />
+    <area shape="rect" coords="870,644,953,722" href="../HyperReality/HyperReality.html" alt="link to hyper reality" />
+    <area shape="rect" coords="825,439,906,516" href="../Erasure/Erasure.html" alt="link to erasure" />
+    <area shape="rect" coords="849,542,930,618" href="../NewPortraits/NewPortraits.html" alt="link to new portrait series" />
+    <area shape="rect" coords="61,51,227,79" href="../AboutMe/AboutMe.html" alt="Link to about me" title="Link to about me"/>
+    <area shape="rect" coords="88,530,227,678" href="#" alt="Link to hyper realtiy" onclick="MM_popupMsg('This image brings up a scene with an exhausted person getting ready to go to sleep after a long day as the sun sets. We think less about the individual because the body has been cut out of the picture.')" />
+    <area shape="rect" coords="82,385,228,523" href="#" alt="Link to building boat" title="Click here for a description of this image." onclick="MM_popupMsg('In this image, by removing the numbers from this clock tower the concept of time dissolves and we get to think of the tower as a monument of years past rather than just a large time telling device.')" onmouseover="MM_swapImage('Image1','','Images/Portfolio-Page-Erasure-BigBen.jpg',1)" onmouseout="MM_swapImgRestore()"/>
+    <area shape="rect" coords="91,231,221,372" href="#" alt="Link to LivingRoomPond image" title="Click here for a description of this image." onclick="MM_popupMsg('In this image we are welcomed to see beyond the lighthouse and think of the purpose rather than the looks of the lighthouse as we look at the sea behind and as we view on the seaside.  Normally when viewing a lighthouse at daytime we do not think of it’s nightly duties.')" onmouseover="MM_swapImage('Image1','','Images/Portfolio-Page-Erasure-Lighthouse.jpg',1)" onmouseout="MM_swapImgRestore()"/>
+    <area shape="rect" coords="257,205,687,746" href="#" title="Click here for a description of this project." onclick="MM_popupMsg('The purpose of the erasure project was to create the effect of erasure through layer masking in photoshop in order to change the meaning of the original image.')"/> 
+</map>
+</div>
+</body>
+</html>

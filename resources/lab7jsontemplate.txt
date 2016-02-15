@@ -3,47 +3,62 @@
         {
             "menuName": "Lab 2",
             "menuDesc": "Resume",
-            "menuURL": "./lab2/RyanThomasMackenzie-resume.html"
+            "menuURL": "./lab2/RyanThomasMackenzie-resume.html",
+            "menuAttr": "target='_blank'"
         },
         {
             "menuName": "Lab 3",
             "menuDesc": "Website",
-            "menuURL": "../index.html"
+            "menuURL": "../index.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 4",
             "menuDesc": "Atom &amp; RSS Feeds",
-            "menuURL":  "./lab4/index.html"
+            "menuURL":  "./lab4/index.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 5",
             "menuDesc": "JavaScript &amp; HTML DOM",
-            "menuURL":  "./lab5/index.html"
+            "menuURL":  "./lab5/index.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 6",
             "menuDesc": "jQuery",
-            "menuURL":  "./lab6/index.html"
+            "menuURL":  "./lab6/index.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 7",
             "menuDesc": "AJAX &amp; JSON",
-            "menuURL":  "./project1.html"
+            "menuURL":  "./project1.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 8",
             "menuDesc": "CSS &amp; Photoshop Compositing",
-            "menuURL":  "./lab8/lab8.html"
+            "menuURL":  "./lab8/lab8.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 9",
             "menuDesc": "XAMPP &amp; Security",
-            "menuURL": "./lab9/lab9.html"
+            "menuURL": "./lab9/lab9.html",
+            "menuAttr": ""
         },
         {
             "menuName": "Lab 10",
             "menuDesc": "MySQL//MariaDB &amp; CSV",
-            "menuURL": "./lab10/lab10.htm"
+            "menuURL": "./lab10/lab10.htm",
+            "menuAttr": ""
+        },
+        {
+            "menuName": "Portfolio",
+            "menuDesc": " Electronic Art HVCC",
+            "menuURL": "./Portfolio/index.html",
+            "menuAttr": "target='_blank'"
         }
         ]
     }
