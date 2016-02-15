@@ -8,6 +8,9 @@
     
        
     <style type="text/css">
+      li {
+        list-style: disc;
+      }
       h1 {
         text-align: center; 
         margin: 0;
@@ -26,6 +29,18 @@
         float: left;
         clear: left;
       }
+      h4{
+        font-size: 1.05em;
+        float: left;
+        clear: left;
+        margin: 0px 0px 0px 4%;
+      }
+      .resumeItem ul{
+        float: right;
+        clear: right;
+        margin: 0px 0px 0px 0px;
+        font-size: 0.8em;
+       }
       #contactInfo {
         border-top: 2px solid #333;
         border-bottom: 2px solid #333;
@@ -36,12 +51,16 @@
       }
       #contactInfo li {
         display: inline;
-        list-style: none;
+        list-style: circle;
         margin: 0 0.25em 0 0.25em;
+      }
+      .sub h3{
+        margin-left: 2%;
+        font-size: 1.10em;
       }
       .resumeBlock{
         width: 90%;
-        margin: 5px 0 0 0;
+        margin: auto;
         padding: 1px;
 
       }
@@ -49,9 +68,13 @@
         width: 850px;
         float: left;
         clear: left;
-        margin: 40px 0 0 0;
+        margin: 0.5% 0 0 0;
         padding:  1px;
         font-size: 1em;
+      }
+      .note{
+        font-size: .75em;
+        list-style: square;
       }
       
     </style>
@@ -61,38 +84,72 @@
     <div id="content">
     <h1>Ryan Mackenzie</h1>
       <ul id="contactInfo">
-        <li>145 15th Street</li>
-        <li>Troy, New York 12110</li>
-        <li>518-555-1212</li>
-        <li>macker2@rpi.edu</li>
+        <li>123 Any Avenue</li>
+        <li>Schenectady, New York xxxxx</li>
+        <li>518-728-7981</li>
+        <li><a href="mailto:macker2@rpi.edu">macker2@rpi.edu</a></li>
       </ul>
       
         
       
       <div class="resumeBlock">
         <h2>EXPERIENCE</h2>
-        <div class="resumeItem">
-          
-            <h3>Computer Repair and Tutorials</h3><em>Self-Employed</em>
-            <div>
+        
+          <div class="sub">
+            <h3>Computer Repair and Tutorials <h4><em>Self-Employed</em></h4></h3>
+          </div>
+          <div class="resumeItem">
               <ul>
-                <li>Support clients PC's with maintence and nesseisary secuirty packages.</li>
-                <li>Train cleients in How to use Application Software and basic Operating Sytem navigation. </li>
+                <li>Support clients PC's with maintence and necessary secuirty packages.</li>
+                <li>Train cleients in How to use Application Software and basic Operating Sytem navigation.</li>
               </ul>
-              <h3>Database Systems Project</h3><em>HVCC, spring 2015 class project</em>
+          </div>
+      
+          <div class="sub">
+            <h3>MITR Project<h4>RPI, <em>Fall 2015 Final Group Project</em></h4></h3>
+          </div>
+          <div class="resumeItem">
             <ul>
-              <li>created an Oracle Relational Database with 4 tables</li>
-              <li>These tables were used to store the products, recipes, ingredients and supplies for a Brewery</li>
+              <li>Created a web payroll databbase for Appatura/Data Communiqu&eeacute;</li>
+              <li>This datbase allowed employees to log in and create Bi-Weekly Timesheets which were saved to a MySQL/MariaDB Database. This data could be summerized converted to monitary values and exported to CSV for import to ADP Payroll by the Controller/Manager.</li>
+              <li class="note">Special Thanks to My Colleagues: David Ivey, Brandon Thorne, Tina Guo, Nina Padavile</li>
             </ul>
-            <h3>Microsoft Access Project</h3><em>HVCC, spring 2014 class project</em>
+          </div>
+
+          <div class="sub">
+            <h3>Introduction to ITWS Project<h4>RPI, <em>Fall 2015 Final Group Project</em></h4></h3>
+          </div>
+          <div class="resumeItem">
             <ul>
-              <li>Created an access database in order to select an Ubuntu based operating sytem</li>
-              <li>The user could select a description from a drop down list derived from the OS descripition table</li>
+              <li>Created a web app and databbase called Listen To This</li>
+              <li>This datbase held hash+salted passwords passed by PHP and a curent song playlist for each current room. This app enabled users to both chat and stream SoundCloud songs simolteniously in a user created room.</li>
+              <li class="note">Special Thanks to my Colleagues: Jeremy Simon, Zhihao Zhou</li>
             </ul>
           </div>
           
-        </div>
+          <div class="sub">
+            <h3>Database Systems Project<h4>HVCC, <em>Spring 2015 Final Project</em></h4></h3>
+          </div>
+          <div class="resumeItem">
+            <ul>
+              <li>Created an Oracle Relational Database with 4 tables.</li>
+              <li>These tables were used to store the products, recipes, ingredients and supplies for a Brewery.</li>
+            </ul>
+          </div>
+
+          <div class="sub">
+            <h3>Microsoft Access Project<h4>HVCC, <em>Spring 2014 Final Project</em></h4></h3>
+          </div>
+            <div class="resumeItem">
+              <ul>
+                <li>Created an access database in order to select an Ubuntu based operating sytem.</li>
+                <li>The user could select a description from a drop down list derived from the OS descripition table.</li>
+              </ul>
+          </div>
+        
       </div>
+
+
         <div class="resumeBlock">
       <h2>EDUCATION</h2>
         <div class="resumeItem">
@@ -106,15 +163,15 @@
       <h2>HONORS</h2>
       <div class="resumeItem">
         <ul>
-         <li>Who's Who Among American Universities and Colleges Award</li>
-         <li>Rensselear Leadership Award</li>
+          <li>Who's Who Among American Universities and Colleges Award (HVCC)</li>
+          <li>Rensselear Leadership Award</li>
           <li>Rensselear Grant</li>
           <li>NYS Award for Academic Excellence</li>
-          <li>Presidents List HVCC, Fall 2014</li>
-          <li>Deans List HVCC; Fall 2014, Spring 2014</li>
+          <li>Presidents List (HVCC); Fall 2014</li>
+          <li>Deans List (HVCC); Fall 2013, Spring 2014</li>
           <li>National Honor Society</li>
-          <li>RIT Computing medal</li>
-
+          <li>RIT Computing Medal 2013</li>
+          <li>SHS Robotics Co-President 2012-2013</li>
           </ul>
         </div>
       </div>
