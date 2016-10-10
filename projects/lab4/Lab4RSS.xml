@@ -2,12 +2,12 @@
 <rss version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 	<atom:link href="https://afsws.rpi.edu/AFS/home/64/macker2/public_html/iit/projects/lab4/Lab4RSS.xml" rel="self" type="application/rss+xml" />
-	<title>RSS Short news</title>
+	<title>RyanTM RSS News</title>
 	<description>This is an RSS feed with 3 news articles</description>
 	<link>http://www.example.com/</link>
 	<lastBuildDate>Sat, 10 Oct 2015 22:00:00 EST </lastBuildDate>
 	<pubDate>Sat, 10 Oct 2015 23:00:00 EST</pubDate>
- 
+
 	<item>
 		<title>Apple A9 Processor varients</title>
 		<description>Apple has chosen two A9 chip manufactures Samsung and TWSC. These chips are different die sizes and have dissimilar performance characteristics.</description>
@@ -29,7 +29,6 @@
 		<guid>http://www.zdnet.com/product/apple-iphone-6s/</guid>
 		<pubDate>Mon, 5 Oct 2015 9:47:00 UTC</pubDate>
 	</item>
- 
+
 </channel>
 </rss>
-

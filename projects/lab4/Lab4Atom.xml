@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
- 
+
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
-	<title>Short News Feed</title>
+
+	<title>RyanTM ATOM News</title>
 	<subtitle>Summary of three articles in an atom feed.</subtitle>
 	<link href="https://afsws.rpi.edu/AFS/home/64/macker2/public_html/iit/projects/lab4/Lab4Atom.xml" rel="self" />
 	<link href="https://afsws.rpi.edu" />
@@ -12,7 +12,7 @@
 		<name>Ryan  Mackenzie</name>
 		<email>macker2@rpi.edu</email>
 	</author>
- 
+
 	<entry>
 		<title>Apple A9 Processor varients</title>
 		<link href="http://www.forbes.com/sites/ewanspence/2015/10/08/apple-iphone-6s-tsmc-samsung-a9-benchmark/" />
@@ -34,8 +34,5 @@
 		<updated>2015-5-10T9:47:02Z</updated>
 		<summary>The iPhone 6s and iPhone 6S Plus have recently been released</summary>
 	</entry>
- 
+
 </feed>
-
-
-
