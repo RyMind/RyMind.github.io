@@ -33,7 +33,7 @@
         {
             "menuName": "Lab 7",
             "menuDesc": "AJAX &amp; JSON",
-            "menuURL":  "./project1.html",
+            "menuURL":  "../index.html",
             "menuAttr": ""
         },
         {
