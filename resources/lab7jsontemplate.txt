@@ -59,6 +59,12 @@
             "menuDesc": " Electronic Art HVCC",
             "menuURL": "./Portfolio/index.html",
             "menuAttr": "target='_blank'"
+        },
+        {
+            "menuName": "Victorian Homes Carpentry",
+            "menuDesc": "Website for my fathers carpentry buisness",
+            "menuURL": "https://sites.google.com/site/victorianhomescarpentry",
+            "menuAttr": "target='_blank'"
         }
         ]
     }
