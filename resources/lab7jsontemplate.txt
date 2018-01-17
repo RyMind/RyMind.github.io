@@ -62,7 +62,7 @@
         },
         {
             "menuName": "Victorian Homes Carpentry",
-            "menuDesc": "Website for my fathers carpentry buisness",
+            "menuDesc": "a website for my fathers carpentry buisness",
             "menuURL": "https://sites.google.com/site/victorianhomescarpentry",
             "menuAttr": "target='_blank'"
         }
