@@ -65,6 +65,12 @@
             "menuDesc": "a website for my fathers carpentry buisness",
             "menuURL": "https://sites.google.com/site/victorianhomescarpentry",
             "menuAttr": "target='_blank'"
+        },
+        {
+            "menuName": "  *** Check out my Social Medias ***",
+            "menuDesc": "Socials",
+            "menuURL": "./RyTMack-bio.html",
+            "menuAttr": "target='_blank'"
         }
         ]
     }
